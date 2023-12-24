@@ -8,3 +8,13 @@ python manage.py makemigrations -> when you modify models to get sql commands
 python manage.py migrate -> to apply migrations
 
 python manage.py createsuperuser -> to create admin
+
+Accessibilty
+Lighthouse
+Tooling (eslint, https://github.com/junstyle/prettier-plugin-django)
+Githooks
+Github
+Images
+Docker
+Logging
+testing
