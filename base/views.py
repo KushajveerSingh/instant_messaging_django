@@ -44,7 +44,7 @@ def logoutUser(request):
     logout(request)
     return redirect('home')
 
-def registerUser(request):
+def registerPage(request):
     page = 'register'
     context = {'page': page }
     return render(request, 'base/login_register.html', context)
