@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+{% load static %}
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -8,6 +9,7 @@
       content="width=device-width, initial-scale=1.0"
     />
     <title>Instant Messaging Django</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'styles/main.css' %}">
   </head>
   <body>
     {% include 'navbar.html' %}
